@@ -1,5 +1,5 @@
 {% set name = "sortedcontainers-stubs" %}
-{% set version = "2.4.2" %}
+{% set version = "2.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sortedcontainers_stubs-{{ version }}.tar.gz
-  sha256: c24e33877effa5a3eb85357112496ba33a0b681c05e0d5d3745664fd3be75d82
+  sha256: ba172daceda4bd617d2f6ffd24582261a494da92705409651967faa40ebc75dd
 
 build:
   noarch: python
